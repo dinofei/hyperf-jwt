@@ -1,0 +1,26 @@
+{
+  "name": "bjyyb/hyperf-jwt",
+  "description": "hyperf-jwt组件",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ningfei",
+      "email": "1056593544@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "firebase/php-jwt": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bjyyb\\JWT\\": "./src"
+    }
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Bjyyb\\JWT\\ConfigProvider"
+    }
+  }
+}
